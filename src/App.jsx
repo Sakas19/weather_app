@@ -64,7 +64,11 @@ function App() {
       )}
 
       {error && <p className="error">Error: {error}</p>}
+      <div className="credit">
+        <p> Design inspired by <a href="https://dribbble.com/shots/21648336-Pet-Shelter-Landing-Page-hero-section">Ronas IT | UI/UX Team</a></p>
+      </div>
     </div>
+    
   );
 }
 

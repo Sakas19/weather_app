@@ -6,21 +6,15 @@
 body {
   font-family: "Yeasty Flavours";
   font-size: 14px;
-  height: 100%;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 .app {
   color: floralwhite;
   margin: 0 56px;
-}
-
-.App-header {
-  font-size: 36px;
-  justify-content: center;
+  position: absolute;
 }
 
 .centered-button {
@@ -109,4 +103,23 @@ a:hover {
   color: #ff4e4e;
   font-size: 16px;
   margin-top: 10px;
+}
+
+.credit {
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  font-size: 14px;
+  color: #888;
+}
+
+.credit a {
+  color: #888;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.credit a:hover {
+  color: #333;
 }
